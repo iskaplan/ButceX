@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bütçeler</title>
+    <link rel="stylesheet" href="css/still.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p>Bütçe Takip Programı</p>
+        <ul class="navbar-links">
+            <li><a href="index.html" class="active">Ana Sayfa</a></li>
+            <li><a href="butce_ekle.html">Bütçe Ekle</a></li>
+            <li><a href="butceler.html">Bütçeler</a></li>
+        </ul>
+        <ul class="navbar-links">
+            <li><a href="giris.html">Giriş Yap</a></li>
+            <li><a href="kayit.html">Kayıt Ol</a></li>
+        </ul>
+    </nav>
+    
+
+    <main class="container">
+
+        <div class="ozet-kutu">
+            <div class="card mini-card">
+                <span class="etiket">Toplam Gelir</span>
+                <strong class="gelir-yazi">+10.000 $</strong>                  
+            </div>
+            <div class="card mini-card">
+                <span class="etiket">Toplam Gider</span>
+                <strong class="gider-yazi">-6500$</strong>
+            </div>
+            <div class="card mini-card">
+                <span class="etiket">Kalan Bakiye</span>
+                <strong class="bakiye-yazi">3500 $</strong>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Son İşlemler</h2>
+            <table class="butce-tablo">
+                <thead>
+                    <tr>
+                        <th>Tarih</th>
+                        <th>Açıklama</th>
+                        <th>Kategori</th>
+                        <th>Tutar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>26 Eki 2026</td>
+                        <td>Haftalık Market</td>
+                        <td><span class="badge badge-gider">Market</span></td>
+                        <td class="gider-yazi">-500 $</td>
+                    </tr>
+                    <tr>
+                        <td>25 Eki 2026</td>
+                        <td>Ev İnterneti</td>
+                        <td><span class="badge badge-gider">Fatura</span></td>
+                        <td class="gider-yazi">-2000 $</td>
+                    </tr>
+                    <tr>
+                        <td>24 Eki 2026</td>
+                        <td>Ev Kirası</td>
+                        <td><span class="badge badge-gider">Kira</span></td>
+                        <td class="gider-yazi">-4000 $</td>
+                    </tr>
+                    <tr>
+                        <td>24 Eki 2026</td>
+                        <td>Burs / Maaş</td>
+                        <td><span class="badge badge-gelir">Gelir</span></td>
+                        <td class="gelir-yazi">+10.000 $</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Bütçe Takip</p>
+    </footer>
+</body>
+</html>
